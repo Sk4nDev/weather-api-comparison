@@ -1,0 +1,5 @@
+{
+  "/(weather)/forecast/page": "app/(weather)/forecast/page.js",
+  "/(weather)/page": "app/(weather)/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
