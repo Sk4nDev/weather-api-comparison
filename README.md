@@ -20,7 +20,7 @@ This is a project built using **Node.js** for the backend and **Next.js** for th
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:Sk4nDev/weather-api-comparison.git
    cd weather-app/backend
    ```
 
