@@ -81,7 +81,7 @@ This is a project built using **Node.js** for the backend and **Next.js** for th
   - `source`: The weather API source (optional, defaults to `openweathermap`).
 - **Example Request**:
   ```
-  GET /api/weather?city=London&source=weatherapi
+  GET /api/weather?location=London&source=weatherapi
   ```
 
 ### 2. Compare Weather APIs
@@ -91,7 +91,7 @@ This is a project built using **Node.js** for the backend and **Next.js** for th
   - `location`: The target location ( city name, country etc ) (e.g., `location=London`).
 - **Example Request**:
   ```
-  GET /api/weather/compare?city=London
+  GET /api/weather/compare?location=London
   ```
 
 ### Example Responses
