@@ -1,3 +1,4 @@
+
 # Weather API Comparison
 
 This is a project built using **Node.js** for the backend and **Next.js** for the frontend. The application compares different weather APIs to recommend one for inclusion in a feature called "Explore." This feature provides users with real-time practical information for every country to help them make smarter travel choices.
@@ -160,3 +161,82 @@ This is a project built using **Node.js** for the backend and **Next.js** for th
 - Access the frontend application at `http://localhost:3000`.
 - Use the API Comparison Interface to compare weather data from different APIs.
 - Use the Weather Data Display Interface to view current weather and forecasts based on selected filters.
+
+## 🌤️ Weather API Evaluation
+
+Below is a comparison of the three weather APIs evaluated for the **"Explore"** feature, focusing on response time, data accuracy, reliability, features, and developer experience.
+
+----------
+
+### ✅ **WeatherAPI** ([weatherapi.com](https://www.weatherapi.com/))
+
+**Pros:**
+
+-   **Fast and stable response times** — generally faster or on par with OpenWeatherMap.
+    
+-   **High accuracy** — consistently aligned with reliable sources like Google Weather.
+    
+-   **Best free tier** — includes **3 days of hour-by-hour forecasts**, which is best-in-class.
+    
+-   **Detailed endpoints** — provides rich data such as UV index, air quality, astronomical info.
+    
+-   **Clear and developer-friendly documentation.**
+    
+
+**Cons:**
+
+-   Slightly smaller community and ecosystem compared to OpenWeatherMap.    
+
+----------
+
+### 🌍 **OpenWeatherMap** ([openweathermap.org](https://openweathermap.org/api))
+
+**Pros:**
+
+-   **Fastest average response time** : faster response time comparing to Tomorrow.io
+    
+-   **Reliable performance** across multiple calls.
+    
+-   **Large ecosystem** and broad developer community.
+    
+-   Offers a wide range of services beyond weather (e.g., pollution, solar radiation).
+    
+
+**Cons:**
+
+-   Data accuracy can be slightly off compared to WeatherAPI, especially for short-term forecasts.
+    
+-   Forecast data granularity is limited in the free tier (3-hour intervals vs hourly).
+    
+-   Slightly more complex response structures and less intuitive field names.
+    
+
+----------
+
+### 🌦️ **Tomorrow.io** ([tomorrow.io](https://www.tomorrow.io/weather-api/))
+
+**Pros:**
+
+-   Innovative with highly customizable parameters and insights (e.g., pollen, road risk, etc.).
+    
+-   Great for predictive use cases and unique metrics.
+    
+-   Modern developer dashboard and UI.
+    
+
+**Cons:**
+
+-   **Unstable free tier** — frequent timeout errors after 4–5 requests.
+    
+-   **Slowest response time** of the three.
+    
+-   Requires more effort to parse responses and configure forecast timelines.    
+
+----------
+
+## 🔍 **Recommendation**
+
+After evaluating response speed, stability, forecast granularity, and data accuracy:
+
+> **I recommend [WeatherAPI.com](https://www.weatherapi.com/) as the best choice** for the 'Explore' feature.  
+> It offers the best balance of **speed**, **accuracy**, and **features** on the **free tier**, with robust documentation and rich forecast data, making it ideal for both short- and long-term product scalability.
